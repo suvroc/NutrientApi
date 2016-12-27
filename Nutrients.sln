@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutrients.Domain", "Nutrien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutrients.DataAccess", "Nutrients.DataAccess\Nutrients.DataAccess.csproj", "{D295E816-6A7C-45EC-B05E-3FA1F89D0DDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutrients.IoC", "Nutrients.IoC\Nutrients.IoC.csproj", "{20FE054D-77BC-4410-A137-3CCDCFE29EBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D295E816-6A7C-45EC-B05E-3FA1F89D0DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D295E816-6A7C-45EC-B05E-3FA1F89D0DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D295E816-6A7C-45EC-B05E-3FA1F89D0DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FE054D-77BC-4410-A137-3CCDCFE29EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FE054D-77BC-4410-A137-3CCDCFE29EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FE054D-77BC-4410-A137-3CCDCFE29EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FE054D-77BC-4410-A137-3CCDCFE29EBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
