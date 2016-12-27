@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Collections.Generic;
+using System.Web.Http;
 using Nutrients.Domain.Food;
 using Nutrients.Domain.Food.Models;
 
@@ -15,9 +16,15 @@ namespace Nutrients.WebApi.Controllers
         }
 
         [Route("Info")]
-        public FoodInfo FindFoodInfo(string searchText)
+        public List<FoodInfo> FindFoodInfo(string searchText)
         {
             return _foodService.FindFoodInfo(searchText);
+        }
+
+        [Route("Test")]
+        public int Test()
+        {
+            return 12;
         }
     }
 }

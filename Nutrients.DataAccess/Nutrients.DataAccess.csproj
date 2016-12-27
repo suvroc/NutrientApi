@@ -54,6 +54,7 @@
     <Compile Include="Models\DataSourceLink.cs" />
     <Compile Include="Models\DataSourceType.cs" />
     <Compile Include="Models\DerivationCode.cs" />
+    <Compile Include="Models\FixSqlServer.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\FoodGroup.cs" />
     <Compile Include="Models\FoodGroupTranslation.cs" />

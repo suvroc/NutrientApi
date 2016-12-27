@@ -9,6 +9,6 @@ namespace Nutrients.Domain.Food
 {
     public interface IFoodService
     {
-        FoodInfo FindFoodInfo(string name);
+        List<FoodInfo> FindFoodInfo(string name);
     }
 }
