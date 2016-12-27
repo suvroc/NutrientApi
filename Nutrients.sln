@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutrients.Api", "Nutrients.Api\Nutrients.Api.csproj", "{85770BA8-956F-4D73-B19A-2D08293D7CCB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutrients.WebApi", "Nutrients.WebApi\Nutrients.WebApi.csproj", "{85770BA8-956F-4D73-B19A-2D08293D7CCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutrients.Domain", "Nutrients.Domain\Nutrients.Domain.csproj", "{56BEADE5-901C-45F8-A915-9CCD0F84CA6E}"
 EndProject

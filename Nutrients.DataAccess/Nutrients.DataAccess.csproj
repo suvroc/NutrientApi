@@ -30,7 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,7 +49,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Abbreviation.cs" />
+    <Compile Include="Models\DataSource.cs" />
+    <Compile Include="Models\DataSourceLink.cs" />
+    <Compile Include="Models\DataSourceType.cs" />
+    <Compile Include="Models\DerivationCode.cs" />
+    <Compile Include="Models\Food.cs" />
+    <Compile Include="Models\FoodGroup.cs" />
+    <Compile Include="Models\FoodGroupTranslation.cs" />
+    <Compile Include="Models\FoodTranslation.cs" />
+    <Compile Include="Models\Footnote.cs" />
+    <Compile Include="Models\Language.cs" />
+    <Compile Include="Models\LangualFactor.cs" />
+    <Compile Include="Models\LangualLink.cs" />
+    <Compile Include="Models\Mapping\AbbreviationMap.cs" />
+    <Compile Include="Models\Mapping\DataSourceLinkMap.cs" />
+    <Compile Include="Models\Mapping\DataSourceMap.cs" />
+    <Compile Include="Models\Mapping\DataSourceTypeMap.cs" />
+    <Compile Include="Models\Mapping\DerivationCodeMap.cs" />
+    <Compile Include="Models\Mapping\FoodGroupMap.cs" />
+    <Compile Include="Models\Mapping\FoodGroupTranslationMap.cs" />
+    <Compile Include="Models\Mapping\FoodMap.cs" />
+    <Compile Include="Models\Mapping\FoodTranslationMap.cs" />
+    <Compile Include="Models\Mapping\FootnoteMap.cs" />
+    <Compile Include="Models\Mapping\LanguageMap.cs" />
+    <Compile Include="Models\Mapping\LangualFactorMap.cs" />
+    <Compile Include="Models\Mapping\LangualLinkMap.cs" />
+    <Compile Include="Models\Mapping\NutrientDataMap.cs" />
+    <Compile Include="Models\Mapping\NutrientMap.cs" />
+    <Compile Include="Models\Mapping\NutrientTranslationMap.cs" />
+    <Compile Include="Models\Mapping\WeightMap.cs" />
+    <Compile Include="Models\Mapping\WeightTranslationMap.cs" />
+    <Compile Include="Models\Nutrient.cs" />
+    <Compile Include="Models\NutrientData.cs" />
+    <Compile Include="NutrientDbContext.cs" />
+    <Compile Include="Models\NutrientTranslation.cs" />
+    <Compile Include="Models\Weight.cs" />
+    <Compile Include="Models\WeightTranslation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

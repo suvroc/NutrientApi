@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Food\FoodService.cs" />
+    <Compile Include="Food\IFoodService.cs" />
+    <Compile Include="Food\Models\FoodInfo.cs" />
+    <Compile Include="Food\Models\FoodNutrientData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

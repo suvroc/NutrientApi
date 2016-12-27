@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using Nutrients.Api;
+using Nutrients.WebApi;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace Nutrients.Api
+namespace Nutrients.WebApi
 {
     public class SwaggerConfig
     {

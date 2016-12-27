@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Routing;
 
-namespace Nutrients.Api
+namespace Nutrients.WebApi
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
