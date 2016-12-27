@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Nutrients.Domain.Food.Models
 {
-    public class FoodNutrientData
+    public class Food
     {
+        public int Id { get; set; } 
         public string Name { get; set; }
-        public string TagName { get; set; }
-        public double? Value { get; set; }
     }
 }

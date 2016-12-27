@@ -12,6 +12,6 @@ namespace Nutrients.Domain.Food.Models
         public string LongDescription { get; set; }
         public string CommonName { get; set; }
 
-        public List<FoodNutrientData> Nutrients { get; set; } 
+        public IEnumerable<FoodNutrientData> Nutrients { get; set; } 
     }
 }
